@@ -1,0 +1,38 @@
+.image {
+  background: url("../../images/nirvana_bg.jpg") repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.85;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffb700;;
+
+  font-weight: 500;
+  color: var(--white-color);
+  outline: none;
+  margin: 0;
+  font-family: var(--font-base);
+
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ffd500;;
+  }
+}
+
+.about__btn {
+  height: 100vh;
+  flex-direction: column;
+  gap: 100px;
+}
+
+img {
+
+}
+
+
